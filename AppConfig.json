@@ -256,5 +256,10 @@
          "matcherPattern":"[\\w\\d]{6,6} is your DigitalOcean verification code\\.",
          "codeExtractorPattern":"([\\w\\d]{6,6})"
       },
+      {
+         "serviceName": "Korean Verification Code",
+         "matcherPattern": "인증번호[는:\\s]*\\[?\\d{6,6}\\]?",
+         "codeExtractorPattern": "(\\d{6,6})"
+      }
    ]
 }
